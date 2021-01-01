@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono';
+    background-image: url(../images/aboutback.jpg);
+    background-attachment: static;
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+#nav {
+    background: rgba(255, 255, 255, 0.3);
+}
+#content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+img {
+    margin-right: 10px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+li {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+ul li a {
+    color: black;
+    background: transparent;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: all 0.4s ease 0s;
+}
+ul li a:hover {
+    background: black;
+    color: white;
+    transition: all 0.4s ease 0s;
+}
+#active {
+    border: 1.5px solid black;
+}
+#active:hover {
+    background: transparent;
+    color: black;
+}
+#about-info {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#second {
+    transform: translate(-220px, 50px);
+}
+#about-info > #second > p {
+    color: black;
+    font-weight: bold;
+    margin-top: -5px;
+    font-size: 40px;
+    transform: rotate(-10deg);
+    text-decoration: underline;
+    font-family: 'Nanum Pen Script';
+}
+#inter {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background: #0e3854;
+    height: 400px;
+}
+#foto {
+    width: auto;
+    margin-left: 5%;
+}
+#paragraph1, #paragraph3 {
+    width: 60%;
+}
+#paragraph1, #paragraph3 {
+    font-size: 20px;
+    text-align: right;
+    margin-right: 5%;
+    color: white;
+}
+#activities, #guns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #132743;
+}
+#info, #info2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+}
+#paragraph2 {
+    margin-left: 5%;
+    text-align: left;
+    width: 80%;
+    font-size: 17px;
+}
+#pa, #gam {
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: right;
+    margin-right: 5%;
+    width: auto;
+}
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#images > img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+#guns {
+    background: #141E30;
+    height: 600px;
+}
+#gam {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 0;
+}
+#table {
+    display: flex;
+    justify-content: center;
+}
+table {
+    border-collapse: collapse;
+    border-color: white;
+    text-align: center;
+    width: 600px;
+    height: 150px;
+}
+table > caption {
+    font-size: 20px;
+}
+#footer {
+    display: flex;
+    justify-content: center;
+}
+footer > #footer > p {
+    font-weight: bold;
+}

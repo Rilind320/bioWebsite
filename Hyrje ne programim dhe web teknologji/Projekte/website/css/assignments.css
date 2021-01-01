@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono';
+    background-image: url(../images/assignmentsback.jpg);
+    background-attachment: static;
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#nav {
+    background: rgba(255, 255, 255, 0.7);
+}
+img {
+    margin-right: 10px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+#content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+li {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+ul li a {
+    color: black;
+    background: transparent;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: all 0.4s ease 0s;
+}
+ul li a:hover {
+    background: #86bad2;
+    color: white;
+    transition: all 0.4s ease 0s;
+}
+#active {
+    border: 1.5px solid #86bad2;
+}
+#active:hover {
+    background: transparent;
+    color: black;
+}
+#footer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+}
+#footer > p {
+    font-weight: bold;
+}
+#all {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+#choose {
+    margin-right: 20px;
+}
+#choose > p {
+    border-bottom: 1.5px solid black;
+    border-right: 1.5px solid black;
+}
+.paragraph {
+    border-bottom: 1.5px solid black;
+}

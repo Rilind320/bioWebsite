@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<!-- Fig. 5.14: meltingimages.html -->
+<!-- Melting one image into another using CSS3. -->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Melting Images</title>
+		<style type="text/css">
+			#cover {
+				position: relative;
+				margin: 0 auto;
+			}
+			#cover img {
+				position: absolute;
+				left: 0;
+				-webkit-transition: opacity 4s ease-in-out;
+				transition: opacity 4s ease-in-out;
+			}
+			#cover img.top:hover {
+				opacity: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<button><a href="../../Projekte/website/chapter5.html">Go back</a></button>
+		<div id="cover">
+			<img src="java.jpg" alt="Java book" class="bottom" width="383">
+			<img src="c++.jpg" alt="C++ book" class="top">
+		</div>
+	</body>
+</html>

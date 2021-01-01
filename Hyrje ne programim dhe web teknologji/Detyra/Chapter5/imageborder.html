@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<!-- Fig. 5.10: imageborder.html -->
+<!-- Stretching and repeating an image to create a border. -->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Image Border</title>
+		<style type="text/css">
+			div {
+				border-width: 30px;
+				width: 234px;
+				padding: 20px 20px;
+			}
+			#stretch {
+				border: 15px solid;
+				border-image-source: url('flower.png');
+				border-image-repeat: stretch;
+				border-image-slice: 80;
+			}
+			#repeat {
+				border: 15px solid;
+				border-image-source: url('flower.png');
+				border-image-repeat: repeat;
+				border-image-slice: 34%; 
+			}
+		</style>
+	</head>
+	<body>
+		<button><a href="../../Projekte/website/chapter5.html">Go back</a></button>
+		<h2>Image Borders</h2>
+		<img src="flower.png" alt="image used to demonstrate borders">
+		<p>
+			<div id="stretch">Stretching the image border</div>
+		</p>
+		<p>
+			<div id="repeat">Repeating the image border</div>
+		</p>
+	</body>
+</html>

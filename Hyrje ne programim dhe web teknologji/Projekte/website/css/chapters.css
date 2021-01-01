@@ -1,0 +1,82 @@
+body {
+	margin: 0%;
+	padding: 0;
+	font-family: 'Roboto Mono';
+	background-image: url(../images/back.jpg);
+    background-attachment: fixed;
+    background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#footer {
+	width: 99%;	
+	height: auto;
+	position: absolute;
+	bottom: 0;
+	margin-left: 5px;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+a {
+	text-decoration: none;
+	font-family: 'Roboto Mono';
+	color: black;
+}
+.buttons {
+	font-family: 'Roboto Mono';
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	border-bottom: dotted black;
+	background: transparent;
+	outline: none;
+}
+.buttons:hover {
+	border-bottom: solid black;
+}
+#content {
+	width: auto;
+	margin: 10px 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+nav {
+	font-weight: bold;
+	color: black;
+	width: 300px;
+	text-align: center;
+	background: transparent;
+}
+span {
+	border-bottom : dotted black;
+}
+nav ul {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+span:hover {
+	border-bottom: solid black;
+}
+nav:hover ul {
+	display: block;
+}
+nav ul li {
+	border-bottom: dotted black;
+	background: transparent;
+	width: 300px;
+	color: black;
+	cursor: pointer;
+}
+nav ul li:hover {
+	border-bottom: solid black;
+}
+div#date > p {
+	font-weight: bold;
+	font-size: 20px;
+}

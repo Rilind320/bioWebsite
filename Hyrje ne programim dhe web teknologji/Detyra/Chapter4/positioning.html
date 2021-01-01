@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<!-- Fig. 4.9: positioning.html -->
+<!-- Absolute positioning of elements. -->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Absolute Positioning</title>
+		<style type="text/css">
+			.background_image {
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				z-index: 1;
+			}
+			.foreground_image {
+				position: absolute;
+				top: 25px;
+				left: 100px;
+				z-index: 2;
+			}
+			.text {
+				position: absolute;
+				top: 25px;
+				left: 100px;
+				z-index: 3;
+				font-size: 20px;
+				font-family: tahoma, geneva, sans-serif;
+			}
+		</style>
+	</head>
+	<body>
+		<button><a href="../../Projekte/website/chapter4.html">Go back</a></button>
+		<p><img src="smoke.png" class="background-image" alt="First positioned image" width="300"></p>
+		<p><img src="virus.png" class="foreground_image" alt="Second positioned image" width="300"></p>
+		<p class="text">Positioned text</p>
+	</body>
+</html>

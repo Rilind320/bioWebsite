@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/darkpixels.jpg);
+    font-family: 'Roboto Mono';
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#empty {
+    width: 100%;
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#more-info {
+    color: white;
+    font-size: 20px;
+    position: static;
+}
+#info, #name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    height: 300px;
+}
+h3 {
+    font-size: 50px;
+    text-decoration: underline;
+}
+#paragraph1, #paragraph3 {
+    width: 60%;
+    margin-right: 10px;
+}
+#paragraph1 > p, #paragraph3 > p {
+    color: #000038;
+    font-size: 20px;
+    text-align: right;
+}
+#history, #the-name {
+    margin-left: 10px;
+    color: #000038;
+}
+#team {
+    display: flex;
+    justify-content: space-between;
+    background: #000038;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+}
+#paragraph2 {
+    width: 60%;
+    margin-left: 10px;
+}
+#paragraph2 > p {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+#the-team {
+    color: white;
+    margin-right: 10px;
+}
